@@ -22,22 +22,23 @@ Combinational Key Expansion Module
 The datapath consists of:
 
 Initial AddRoundKey
+
 9 Standard AES Rounds
-SubBytes
-ShiftRows
-MixColumns
-AddRoundKey
+  SubBytes
+  ShiftRows
+  MixColumns
+  AddRoundKey
 
 Final Round
-SubBytes
-ShiftRows
-AddRoundKey
+  SubBytes
+  ShiftRows
+  AddRoundKey
 
 
 
-for verification I have use a standard example
+
 # Verification
-Test Vector
+for verification I have use a standard example
 
 Plaintext:
 00112233445566778899aabbccddeeff
