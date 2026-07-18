@@ -24,15 +24,18 @@ The datapath consists of:
 Initial AddRoundKey
 
 9 Standard AES Rounds
+
   SubBytes-->
   ShiftRows-->
   MixColumns-->
   AddRoundKey
 
 Final Round
+
   SubBytes-->
   ShiftRows-->
   AddRoundKey
+  
 No mix column in last round 
 
 
